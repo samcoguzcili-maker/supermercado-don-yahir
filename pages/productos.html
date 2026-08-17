@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Don Yahir - Productos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- =========================================
+       HEADER 
+       ========================================= -->
+    <header class="header-index">
+        <div class="logo-container">
+            <img src="../img/logo_don_yahirNew.png" alt="Logo Supermercado Don Yahir" class="logo">
+            <div class="texto-logo">
+                <span class="sub-logo"><strong>Supermercado</strong></span>
+                <h1>Don Yahir™</h1>
+            </div>
+        </div>
+
+        <nav class="nav-index">
+            <a href="../index.html">Inicio</a>
+            <a href="sobre_nosotros.html">Sobre Nosotros</a>
+            <a href="productos.html" class="activo">Productos</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="iniciar_sesion.html" class="btn-iniciar-sesion">Iniciar Sesión</a>
+        </nav>
+    </header>
+
+    <!-- Barra de búsqueda y Carrito -->
+    <div class="barra-superior-tienda">
+        <div class="barra-busqueda-container">
+            <span class="lupa-icon">🔍</span>
+            <input type="text" placeholder="Buscar">
+        </div>
+        <div class="carrito-resumen">
+            <span class="icono-carrito">🛒</span>
+            <span class="contador-carrito-circulo">0</span>
+        </div>
+    </div>
+
+
+    <!-- =========================================
+       CONTENIDO PRINCIPAL: MENÚ LATERAL FIJO + PRODUCTOS
+       ========================================= -->
+    <main class="main-productos-layout">
+        
+        <!-- Menú lateral vertical estático que abarca toda la sección -->
+        <aside class="menu-lateral-vertical">
+            <ul class="lista-categorias">
+                <li><a href="#" class="activo">Todo</a></li>
+                <li><a href="#">Despensa</a></li>
+                <li><a href="#">Lácteos</a></li>
+                <li><a href="#">Limpieza</a></li>
+                <li><a href="#">Hogar</a></li>
+                <li><a href="#">Verduras</a></li>
+                <li><a href="#">Frutas</a></li>
+                <li><a href="#">Snacks</a></li>
+            </ul>
+        </aside>
+
+        <!-- Contenedor del catálogo de productos -->
+        <section class="seccion-catalogo">
+            <div class="grid-productos-6col">
+
+                <!-- 1 -->
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🍚</div>
+                    <div class="info-producto">
+                        <h3>Arroz</h3>
+                        <p class="detalle-peso">Bolsa 1KG</p>
+                        <p class="precio">1,000₡ C/U</p>
+                        <div class="control-cantidad">
+                            <button class="btn-menos">-</button>
+                            <span class="cantidad-num">0</span>
+                            <button class="btn-mas">+</button>
+                        </div>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🫘</div>
+                    <div class="info-producto">
+                        <h3>Frijoles</h3>
+                        <p class="detalle-peso">Bolsa 1KG</p>
+                        <p class="precio">1,000₡ C/U</p>
+                        <div class="control-cantidad">
+                            <button class="btn-menos">-</button>
+                            <span class="cantidad-num">0</span>
+                            <button class="btn-mas">+</button>
+                        </div>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🥛</div>
+                    <div class="info-producto">
+                        <h3>Leche</h3>
+                        <p class="detalle-peso">1 cartón</p>
+                        <p class="precio">1,000₡ C/U</p>
+                        <div class="control-cantidad">
+                            <button class="btn-menos">-</button>
+                            <span class="cantidad-num">0</span>
+                            <button class="btn-mas">+</button>
+                        </div>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🌾</div>
+                    <div class="info-producto">
+                        <h3>Harina</h3>
+                        <p class="detalle-peso">Bolsa 1KG</p>
+                        <p class="precio">1,000₡ C/U</p>
+                        <div class="control-cantidad">
+                            <button class="btn-menos">-</button>
+                            <span class="cantidad-num">0</span>
+                            <button class="btn-mas">+</button>
+                        </div>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🥚</div>
+                    <div class="info-producto">
+                        <h3>Huevos</h3>
+                        <p class="detalle-peso">Cartón 12 Huevos</p>
+                        <p class="precio">1,000₡ C/U</p>
+                        <div class="control-cantidad">
+                            <button class="btn-menos">-</button>
+                            <span class="cantidad-num">0</span>
+                            <button class="btn-mas">+</button>
+                        </div>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🥔</div>
+                    <div class="info-producto">
+                        <h3>Chips</h3>
+                        <p class="detalle-peso">1 paquete</p>
+                        <p class="precio">1,000₡ C/U</p>
+                        <div class="control-cantidad">
+                            <button class="btn-menos">-</button>
+                            <span class="cantidad-num">0</span>
+                            <button class="btn-mas">+</button>
+                        </div>
+                        <button class="btn-agregar">Agregar al carrito</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+       FOOTER 
+       ========================================= -->
+    <footer class="footer-index">
+        <div class="footer-izquierda">
+            <small class="texto-footer">Supermercado Don Yahir™</small>
+            <small class="derechos-footer">&copy; Todos los derechos reservados 2026</small>
+        </div>
+        
+        <div class="footer-derecha">
+            <small class="llamanos-footer">Llamanos al: +506 2200-1111</small>
+        </div>
+    </footer>
+
+</body>
+</html>

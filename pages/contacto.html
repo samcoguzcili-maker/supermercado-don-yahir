@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Supermercado Don Yahir - Contacto</title>
+    <!-- Usamos ../ para salir de la carpeta pages y encontrar el CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header class="header-index">
+        <div class="logo-container">
+            <img src="../img/logo_don_yahirNew.png" alt="Logo Supermercado Don Yahir" class="logo">
+            <div class="texto-logo">
+                <span class="sub-logo"><strong>Supermercado</strong></span>
+                <h1>Don Yahir™</h1>
+            </div>
+        </div>
+
+        <!-- Navegador principal (nota los ../ para que los enlaces funcionen desde la carpeta pages) -->
+        <nav class="nav-index">
+            <a href="../index.html"> Inicio </a>
+            <a href="../pages/sobre_nosotros.html"> Sobre Nosotros </a>
+            <a href="productos.html"> Productos </a>
+            <a href="galeria.html"> Galería </a>
+            <a href="contacto.html" class="activo"> Contacto </a>
+            <a href="iniciar_sesion.html" class="btn-iniciar-sesion"> Iniciar Sesión</a>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal: Contacto -->
+    <main class="main-contacto">
+        
+        <!-- Columna Izquierda: Información y Redes -->
+        <section class="info-contacto">
+            <h3>Supermercado Don Yahir™</h3>
+            <p>Todo lo que necesitas a la vuelta de la esquina</p>
+            <p><strong>Contacta con nosotros:</strong></p>
+            
+            <ul class="lista-redes">
+                <li><img src="../img/instagram.png" alt="Instagram" width="22" style="vertical-align: middle; margin-right: 8px;"> @supermercadodonyahir</li>
+                <li><img src="../img/whastapp.png" alt="WhatsApp" width="22" style="vertical-align: middle; margin-right: 8px;"> +506 2200-1111</li>
+                <li><img src="../img/mail.png" alt="X" width="22" style="vertical-align: middle; margin-right: 8px;"> supermercado@donyahir.com</li>
+                <li><img src="../img/facebook.png" alt="Facebook" width="22" style="vertical-align: middle; margin-right: 8px;"> @supermercadodonyahir</li>
+            </ul>
+
+            <div class="ubicacion">
+                <img src="../img/mapa-placeholder.png" alt="Mapa de ubicación" class="img-mapa">
+                <p>Calle Principal #123, Cartago, Costa Rica</p>
+            </div>
+        </section>
+
+        <!-- Columna Derecha: Formulario de Mensaje -->
+        <section class="seccion-formulario">
+            <div class="tarjeta-formulario">
+                <h2>Envíanos un mensaje</h2>
+                
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Nombre" required class="input-form">
+                    <input type="text" placeholder="Apellidos" required class="input-form">
+                    <input type="email" placeholder="Correo electronico" required class="input-form">
+                    <input type="text" placeholder="Asunto" required class="input-form">
+                    <textarea placeholder="Cuerpo del mensaje" rows="5" required class="input-form"></textarea>
+                    
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer-index">
+        <div class="footer-izquierda">
+            <small class="texto-footer">Supermercado Don Yahir™</small>
+            <small class="derechos-footer">&copy; Todos los derechos reservados 2026</small>
+        </div>
+        
+        <div class="footer-derecha">
+            <small class="llamanos-footer">Llamanos al: 0000-0000</small>
+        </div>
+    </footer>
+</body>
+</html>
